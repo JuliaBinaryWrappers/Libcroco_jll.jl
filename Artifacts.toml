@@ -1,113 +1,113 @@
 [[Libcroco]]
-arch = "aarch64"
-git-tree-sha1 = "5999a62e925d321d14acc718213e93e1f9bb5a18"
-libc = "glibc"
-os = "linux"
-
-    [[Libcroco.download]]
-    sha256 = "ac245705388212299ffa8059cd139947d4d4fb8e0d57e41c2e28f08c35919528"
-    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+0/Libcroco.v0.6.13.aarch64-linux-gnu.tar.gz"
-[[Libcroco]]
-arch = "x86_64"
-git-tree-sha1 = "973deb1128b383d243deecd96c53fa988a65bbbe"
-libc = "glibc"
-os = "linux"
-
-    [[Libcroco.download]]
-    sha256 = "6004454fa645ae0ed826a633d7fc17597a85182c542e68eab1766b118adff6d3"
-    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+0/Libcroco.v0.6.13.x86_64-linux-gnu.tar.gz"
-[[Libcroco]]
-arch = "armv7l"
-git-tree-sha1 = "df91df3967fd75fdfa0593fcdde43e33a2dd3186"
+arch = "i686"
+git-tree-sha1 = "ebb2adbe829c97e6f1a10da7c621b677c7bb3a72"
 libc = "musl"
 os = "linux"
 
     [[Libcroco.download]]
-    sha256 = "2be59d4eeb05f5186db83ee2ae8c4a90bec876990203b15cb3f672a1c0148c37"
-    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+0/Libcroco.v0.6.13.arm-linux-musleabihf.tar.gz"
+    sha256 = "847e2a340ae9b959583e21ea451d493eaeb0a24a567a938eaecbd93cf3f043da"
+    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+1/Libcroco.v0.6.13.i686-linux-musl.tar.gz"
+[[Libcroco]]
+arch = "aarch64"
+git-tree-sha1 = "9d251461302d3c77fd5db923eff79d553e7ce7b8"
+libc = "musl"
+os = "linux"
+
+    [[Libcroco.download]]
+    sha256 = "ee89439843cd9db48391343e3a0ee0f461b7e59bcfe4371e8d9d75ff449c8b68"
+    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+1/Libcroco.v0.6.13.aarch64-linux-musl.tar.gz"
+[[Libcroco]]
+arch = "i686"
+git-tree-sha1 = "d254ad808420913bbb87f15c32824ff0c64ee3ed"
+os = "windows"
+
+    [[Libcroco.download]]
+    sha256 = "ad3fbf4b010fe018919a624c12c94d39067efaba8392bf0fd150e6517d68c857"
+    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+1/Libcroco.v0.6.13.i686-w64-mingw32.tar.gz"
+[[Libcroco]]
+arch = "x86_64"
+git-tree-sha1 = "2135336ef315329d80f3cc11177807891a7ed2a5"
+os = "windows"
+
+    [[Libcroco.download]]
+    sha256 = "a868570cc1eaecedc33bb02fcb93c1f249c9a91a87a8e8335784a64097416c7d"
+    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+1/Libcroco.v0.6.13.x86_64-w64-mingw32.tar.gz"
 [[Libcroco]]
 arch = "armv7l"
-git-tree-sha1 = "2f86c42d253aa633e5091e337e654a0c3e29c939"
+git-tree-sha1 = "ea6da702d81ab945b2a0552e4a69f0e3c1986f00"
 libc = "glibc"
 os = "linux"
 
     [[Libcroco.download]]
-    sha256 = "a42c266686a14679089fc084d471aa18b4f07e7c6562c483622173324729097c"
-    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+0/Libcroco.v0.6.13.arm-linux-gnueabihf.tar.gz"
+    sha256 = "6bfea85a9aad423570bd7834a4a7d809e6c45f0919f04fd96fe8eabfbdf9f791"
+    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+1/Libcroco.v0.6.13.armv7l-linux-gnueabihf.tar.gz"
 [[Libcroco]]
-arch = "x86_64"
-git-tree-sha1 = "841603148e8b9a431290378d475fc849e6021fdb"
-os = "freebsd"
+arch = "armv7l"
+git-tree-sha1 = "3f1609cc2885529a4ee473ab6eea439bb4b3dcad"
+libc = "musl"
+os = "linux"
 
     [[Libcroco.download]]
-    sha256 = "62221250711a3d11fca7110159b100edc4ac760c29f3fa5d0852b24d62ec8e05"
-    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+0/Libcroco.v0.6.13.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "bddfaee70ac2c9f3aab27a0a936955f91e65277f50b90c937157a10e6bc02a28"
+    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+1/Libcroco.v0.6.13.armv7l-linux-musleabihf.tar.gz"
+[[Libcroco]]
+arch = "i686"
+git-tree-sha1 = "3f9b176eb0a4c0e87b17d8ab997a3ee36a02fc4f"
+libc = "glibc"
+os = "linux"
+
+    [[Libcroco.download]]
+    sha256 = "9d2afa736a86991ee5773f4a5ca247a60246902442e4e4a160de1ee3ab1967ba"
+    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+1/Libcroco.v0.6.13.i686-linux-gnu.tar.gz"
 [[Libcroco]]
 arch = "x86_64"
-git-tree-sha1 = "063626beebfab66794aecacda286f3572c471ee6"
+git-tree-sha1 = "8d4271cc52f9cb70dcd888b76f75d6b6b50691cb"
+libc = "glibc"
+os = "linux"
+
+    [[Libcroco.download]]
+    sha256 = "45ffb99b95371f365c125e8dd00c814117569cf669afc3017059ffeb66f5a6e0"
+    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+1/Libcroco.v0.6.13.x86_64-linux-gnu.tar.gz"
+[[Libcroco]]
+arch = "powerpc64le"
+git-tree-sha1 = "4f683e589969443a7072a6a925b1a21f0d19179f"
+libc = "glibc"
+os = "linux"
+
+    [[Libcroco.download]]
+    sha256 = "0755d4a840791a6de93f1c7b409fcd2210e4ca8c2f980b240bfaccba3c1996cc"
+    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+1/Libcroco.v0.6.13.powerpc64le-linux-gnu.tar.gz"
+[[Libcroco]]
+arch = "x86_64"
+git-tree-sha1 = "894886992e492f84c33981d177805fb53e6593d0"
 os = "macos"
 
     [[Libcroco.download]]
-    sha256 = "51093b45666ba03a144699d61ceb80ac875e90780e716aba1a16f4be44df2b1b"
-    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+0/Libcroco.v0.6.13.x86_64-apple-darwin14.tar.gz"
+    sha256 = "523833a4a224dae60510a302295dd52fccf07843e646a1ee4376dce748269f1a"
+    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+1/Libcroco.v0.6.13.x86_64-apple-darwin14.tar.gz"
 [[Libcroco]]
 arch = "aarch64"
-git-tree-sha1 = "2d664edf2751570daa4b833778e0882bdce192cf"
-libc = "musl"
-os = "linux"
-
-    [[Libcroco.download]]
-    sha256 = "e0ff2c61b49fc2f363e03c64cbe71e6cf86e229921f9a72c5b51a7f23fc0f26f"
-    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+0/Libcroco.v0.6.13.aarch64-linux-musl.tar.gz"
-[[Libcroco]]
-arch = "powerpc64le"
-git-tree-sha1 = "5517f9f426949e86c124b792092fca0a94a23f8e"
+git-tree-sha1 = "40b68e6e59d6cf29aebfb90e4779d9f0be2f0943"
 libc = "glibc"
 os = "linux"
 
     [[Libcroco.download]]
-    sha256 = "eb9ea896a5b28a2f5b03babe3e3f38e61df3c96307f4a3c2647fbcc1d4accb0e"
-    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+0/Libcroco.v0.6.13.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "ce2ce55872540bd9b14025ebff89a3cef439ad572e2fada87e3a7b4bedbe7558"
+    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+1/Libcroco.v0.6.13.aarch64-linux-gnu.tar.gz"
 [[Libcroco]]
-arch = "i686"
-git-tree-sha1 = "673096ceed238ec91ffc0259b6c4f231afcc7e7a"
-os = "windows"
+arch = "x86_64"
+git-tree-sha1 = "dc70940c297ec81deafc3e37a39cd52ea040b148"
+os = "freebsd"
 
     [[Libcroco.download]]
-    sha256 = "fb656b9f50561107068118b17854a3a6af3f2bce30c066c361b92098c39e62f5"
-    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+0/Libcroco.v0.6.13.i686-w64-mingw32.tar.gz"
+    sha256 = "c97647a1073d9c2902a0a8f972e79a2d1154185c26f57205b7ca0c6cbb8205ae"
+    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+1/Libcroco.v0.6.13.x86_64-unknown-freebsd11.1.tar.gz"
 [[Libcroco]]
-arch = "i686"
-git-tree-sha1 = "3cbd4105513f6606f88a7318c4892d148c63ec6d"
+arch = "x86_64"
+git-tree-sha1 = "2c7bc862762915fbcf6ee9ad73c8c0311889141d"
 libc = "musl"
 os = "linux"
 
     [[Libcroco.download]]
-    sha256 = "d9ab065720dbfddcbc7fc04f6685ae32b1342a0cb0e4d07f62d3331dc985aa46"
-    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+0/Libcroco.v0.6.13.i686-linux-musl.tar.gz"
-[[Libcroco]]
-arch = "x86_64"
-git-tree-sha1 = "d5bfbe5c9512b4162ad00bd0bdfd0713888a0d9e"
-os = "windows"
-
-    [[Libcroco.download]]
-    sha256 = "60184b7b2c891b4bcd4f813864f8ea1fc4f6d0dc3f8df7a8057fd358e9c0dc2f"
-    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+0/Libcroco.v0.6.13.x86_64-w64-mingw32.tar.gz"
-[[Libcroco]]
-arch = "x86_64"
-git-tree-sha1 = "99affc6fbf5752c8e2b03ea6b581d36d8538a97e"
-libc = "musl"
-os = "linux"
-
-    [[Libcroco.download]]
-    sha256 = "223d5519283f2166e5b1d45eb7fb4512c4dd7048d524a96c4f5689c41eb65286"
-    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+0/Libcroco.v0.6.13.x86_64-linux-musl.tar.gz"
-[[Libcroco]]
-arch = "i686"
-git-tree-sha1 = "8cfd28712efec5c3cd2a301f437ed999eda7dd5c"
-libc = "glibc"
-os = "linux"
-
-    [[Libcroco.download]]
-    sha256 = "393e74571a6c7665f7ad95c0cd207658e8e7dddd097e095ac77f7db996826b2f"
-    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+0/Libcroco.v0.6.13.i686-linux-gnu.tar.gz"
+    sha256 = "63c8287370c969f182df8148ba241b4299c11a730d826ac8eb616713b5902b46"
+    url = "https://github.com/JuliaBinaryWrappers/Libcroco_jll.jl/releases/download/Libcroco-v0.6.13+1/Libcroco.v0.6.13.x86_64-linux-musl.tar.gz"
